@@ -1,0 +1,383 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+.header
+{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    display: flex;
+    justify-content:space-around;
+    width:1300;
+    height:70px;
+    padding-top:50px;
+    background-color: pink;
+
+}
+.header h2
+{
+    font-style: italic;
+    font-weight: 500;
+    font-family:cursive;
+    .noto-sans-math-regular {
+        font-family: "Noto Sans Math", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+      
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover
+{
+    text-decoration: underline;
+}
+.jacquard-12-charted-regular {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ .header h1{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.quotes
+{
+    text-align: center;
+    .jacquard-24-regular {
+        font-family: "Jacquard 24", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+#home input
+{ 
+    width:1200px;
+    padding:20px;
+    border-radius:50px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-bottom:10px;
+}
+#home
+{
+    background-color:rgb(241, 220, 223);
+}
+.icons
+{
+    left:50px;
+    justify-content:left;
+}
+#kids
+{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap:20px;
+    background-color:rgb(245, 219, 223);
+    padding-left:20px;
+    padding-left:20px;
+    padding:10px;
+
+    /*display: flex;
+    justify-content: space-around;
+    
+    /*flex-wrap:wrap;*/
+}
+.dress
+{
+    display:inline; 
+    width: 0 0 calc(50% - 10px); 
+    margin: 5px;
+    height: auto;
+    margin-top:50px;
+    padding:10px;
+    width: 200px;
+    height: fit-content;
+    border-radius:10px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#kids h1{
+    text-align:center;
+    padding-left: 70px;
+}
+#kids button
+{
+    padding:10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius:10px;
+    width: fit-content;
+    align-items: center;
+    margin: 10px;
+}
+.dress p,h2
+{
+    margin:10px;
+}
+.kidoo
+{
+    background-color:rgb(245, 219, 223);
+    padding-top:30px;
+
+}
+#mens {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.details {
+    padding: 20px;
+}
+
+.details h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.order-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #0056b3;
+}
+
+#men
+{
+    background-color:rgb(244, 235, 237);
+}
+.women
+{
+    background-color:rgb(245, 219, 223);
+    padding-top:30px;
+
+}
+#women
+{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    background-color:rgb(245, 219, 223);
+    padding-left:20px;
+    padding-left:20px;
+
+    /*display: flex;
+    justify-content: space-around;
+    
+    /*flex-wrap:wrap;*/
+}
+#women h1{
+    text-align:center;
+    padding-left: 70px;
+}
+#women button
+{
+    padding:10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius:10px;
+    width: fit-content;
+    align-items: center;
+    margin: 10px;
+}
+.contact
+{
+    background-color: #333;
+    color: #fff;
+}
+#slide
+{
+  nav-left:70%;
+  width:500px;
+  height:600px;
+  background-color: #666;
+  text-align:left;
+  justify-content:space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display:none;
+}
+#slide a
+{
+  text-decoration: none;
+}
+#orderd
+{
+  align-items: center;
+  display:none;
+  width: fit-content;
+  height: fit-content;
+  bottom:70%;
+  left:50%;
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 10px;
+  color:black;
+  padding:20px;
+
+}
+body{
+  cursor:pointer;
+}
+.result-box
+{
+  max-height:300px;
+  overflow-y:scroll;
+}

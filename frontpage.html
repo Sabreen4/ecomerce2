@@ -1,0 +1,445 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<body>
+    <link rel="stylesheet" href="front.css">
+    <nav class="header">
+      <span class="material-symbols-outlined" onclick="sideshow()"> person </span>
+    <span class="material-symbols-outlined"> home </span>
+   <h2>Classy Couture</h2> <a href="#home">HOME</a><a href="#kids">KIDS</a><a href="#mens">MENS</a><a href="#women">WOMEN</a></nav>
+   <div id="slide">
+      <span class="material-symbols-outlined" ondblclick="closed()">close</span>
+      <table>
+         <tr>
+      <aside>
+        <td><a href="cus.html"><h1>USER<span class="material-symbols-outlined">person</span></h1></a></td> </tr>
+         <tr><td><h2>Settings<span class="material-symbols-outlined">
+            settings
+            </span></h2></td></tr>
+            <tr><td><a href="order.html"><h2>Your Order<span class="material-symbols-outlined"> deployed_code</span></a>
+              
+               </span></h2></td></tr>
+      </aside>
+   </table>
+   </div>
+   <div class="intro">
+        <h2 class="quotes">Make your day with Classy Couture</h2>
+        <img src="shop.jpg" width="1500px" height="400px">
+    </div>
+    <div id="home">
+        <nav class="icons"><span class="material-symbols-outlined">favorite</span><span class="material-symbols-outlined">
+            shopping_cart_checkout
+            </span></nav>
+        <input type="search"class="material-symbols-outlined" placeholder="Search" id="search">
+        <div class="result-box"></div>
+        </div>
+        <div id="product">
+        <div class="kidoo">
+         <center><h1>KIDS</h1></center> 
+        <div id="kids">
+       
+         <div class="dress">
+            <img src="viol.jpg" width="200" height="200">
+            <p name="kids">Party Frock</p>
+            <h2>$2999</h2>
+            <button onclick="order('PartyFrock','$2999')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()" ondblclick="removes()" >favorite</span><span class="material-symbols-outlined" onclick="cart()" ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="pink.jpg" width="200" height="200">
+            <p name="kids">Cotton Frock</p>
+            <h2>$1500</h2>
+            <button onclick="order('Cotton Frock','$1500')">Order Now</button><span class="material-symbols-outlined" id="fav" onclick="color()" ondblclick="removes()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout</span><span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="frock.jpg" width="200" height="200">
+            <p name="kids">Western Frock</p>
+            <h2>$890</h2>
+            <button onclick="order('Weastern Frock','$890')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()" ondblclick="remove(event)">favorite</span><span class="material-symbols-outlined" id="cart" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="baby.jpg" width="200" height="200">
+            <p name="kids">Bubble frock</p>
+            <h2>$800</h2>
+            <button onclick="order('Bubble Frock','$800')">Order Now</button><span class="material-symbols-outlined"id="fav"onclick="color()" ondblclick="removes()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+
+
+         </div>
+         <div class="dress">
+            <img src="tad.jpg" width="200" height="200">
+            <p name="kids">Skirt top</p>
+            <h2>$2000</h2>
+            <button onclick="order('>Skirt top','$2000')">Order Now</button><span class="material-symbols-outlined"id="fav"onclick="color(event)" ondblclick="removes(event)">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="pat.jpg" width="200" height="200">
+            <p name="kids">Full frock</p>
+            <h2>$3000</h2>
+            <button onclick="order('Full frock','$3000')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color(event)" ondblclick="removes()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="part.jpg" width="200" height="200">
+            <p name="kids">Traditional wear</p>
+            <h2>$2345</h2>
+            <button onclick="order('Traditional wear','$2345')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color(event)" ondblclick="removes()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="party.jpg" width="200" height="200">
+            <p name="kids">Party wear</p>
+            <h2>$3245</h2>
+            <button onclick="order('Party wear','$3245')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color(event)">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div> 
+         <div class="dress">
+            <img src="wes.jpg" width="200" height="200">
+            <p name="kids">Weastern wear</p>
+            <h2>$578</h2>
+            <button onclick="order('Weastern wear','$578')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>
+         <div class="dress">
+            <img src="boy.jpg" width="200" height="200">
+            <p name="kids">Pant set</p>
+            <h2>$1590</h2>
+            <button onclick="order('Pant set','$1590')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+
+         </div>
+         <div class="dress">
+            <img src="wt.jpg" width="200" height="200">
+            <p name="kids">Kurta</p>
+            <h2>$2500</h2>
+            <button onclick="order('Kurta','$2500')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+
+
+         </div>
+         <div class="dress">
+            <img src="wet.jpg" width="200" height="200">
+            <p name="kids">Vesti</p>
+            <h2>$3245</h2>
+            <button onclick="order('vesti','3245')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+               shopping_cart_checkout<span class="material-symbols-outlined">
+                  share
+                  </span>
+         </div>  
+           
+        </div>
+      </div>
+      <div id="men">
+        <div id="mens">
+         <h1>Men's Wear Shop</h1>
+         <div class="grid-container">
+             <div class="item">
+                 <img src="dress1.jpg" alt="Men's Wear 1">
+                 <div class="details">
+                     <h2>Men's Wear </h2>
+                     <p>Price: $50</p>
+                     <p>Description: Shirt and pant</p>
+                     <button class="order-btn" onclick="order('Shirt and pant','$50')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+ 
+             <div class="item">
+                 <img src="dress2.jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear </h2>
+                     <p>Price: $65</p>
+                     <p>Description: Salwar</p>
+                     <button class="order-btn" onclick="order('Salwar',' $65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress3.jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: Casuals</p>
+                     <button class="order-btn" onclick="order('Casuals',' $65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress4.webp" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: formal dress</p>
+                     <button class="order-btn" onclick="order('formal dress',' $65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress6.jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description:kurtha with gliters </p>
+                     <button class="order-btn" onclick="order('kurtha with gliters','$65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress5.jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: Beautiful silk cotton </p>
+                     <button class="order-btn" onclick="order('Beautiful silk cotton','$65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress7.png" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: shirt and shorts </p>
+                     <button class="order-btn" onclick="order('shirt and shorts','$65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress8.jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: Torn Jeans </p>
+                     <button class="order-btn" onclick="order(' Torn Jeans',' $65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="dress9 (1).jpg" alt="Men's Wear 2">
+                 <div class="details">
+                     <h2>Men's Wear 2</h2>
+                     <p>Price: $65</p>
+                     <p>Description: leather Jacket </p>
+                     <button class="order-btn" onclick="order('leather Jacket',' $65')">Order Now</button>
+                     <span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+                        shopping_cart_checkout<span class="material-symbols-outlined">
+                           share
+                           </span>
+                 </div>
+             </div>
+            </div>  
+       </div>
+     </div>
+     <div class="women">
+      <center><h1>WOMEN'S WEAR</h1></center> 
+     <div id="women">
+    
+      <div class="dress">
+         <img src="women1.jpg" width="200" height="200">
+         <p name="kids">Party Frock</p>
+         <h2>$699</h2>
+         <button onclick="order('Party Frock','$699')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women2.jpg" width="200" height="200">
+         <p name="kids">Cotton Frock</p>
+         <h2>$500</h2>
+         <button onclick="order('Cotton Frock','$500')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women3.jpg" width="200" height="200">
+         <p name="kids">Western Frock</p>
+         <h2>$890</h2>
+         <button onclick="order('Western Frock','$890')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women4.jpg" width="200" height="200">
+         <p name="kids">Anarkali</p>
+         <h2>$800</h2>
+         <button onclick="order('Anarkali','$800')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+
+
+      </div>
+      <div class="dress">
+         <img src="women5.jpg" width="200" height="200">
+         <p name="kids">Skirt top</p>
+         <h2>$700</h2>
+         <button onclick="order('>Skirt top','$700')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women6.jpg" width="200" height="200">
+         <p name="kids">Full frock</p>
+         <h2>$1500</h2>
+         <button onclick="order('Full frock','$1500')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women7.jpg" width="200" height="200">
+         <p name="kids">Treandy Party wear</p>
+         <h2>$2345</h2>
+         <button onclick="order('Treandy Party wear','$2345')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women8.jpg" width="200" height="200">
+         <p name="kids">Party wear</p>
+         <h2>$3245</h2>
+         <button onclick="order('Party wear','$3245')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div> 
+      <div class="dress">
+         <img src="women9.jpg" width="200" height="200">
+         <p name="kids">Casual wear Saree</p>
+         <h2>$578</h2>
+         <button onclick="order('Casual wear Saree','$578')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>
+      <div class="dress">
+         <img src="women10.jpg" width="200" height="200">
+         <p name="kids">Ethnic Wear Saree</p>
+         <h2>$1590</h2>
+         <button onclick="order('Ethnic Wear Saree','$1590')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined" onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+
+      </div>
+      <div class="dress">
+         <img src="women11.jpg" width="200" height="200">
+         <p name="kids">Saree</p>
+         <h2>$2500</h2>
+         <button onclick="order('Saree','$2500')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color()">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+
+
+      </div>
+      <div class="dress">
+         <img src="women12.jpg" width="200" height="200">
+         <p name="kids">Party wear saree</p>
+         <h2>$3245</h2>
+         <button onclick="order('Party wear saree','$3245')">Order Now</button><span class="material-symbols-outlined"id="fav" onclick="color(event)">favorite</span><span class="material-symbols-outlined"onclick="cart()"ondblclick="cartnot()">
+            shopping_cart_checkout<span class="material-symbols-outlined">
+               share
+               </span>
+      </div>  
+        
+     </div>
+   </div>
+   
+</div>
+
+   <div id="orderd">
+      <span class="material-symbols-outlined" onclick="closes()" id="close">close</span>
+      <center>
+      <table>
+         <tr>
+       <td>Product name:</td><td><input type="text" id="int"></td></tr>
+       <tr><td>Price:</td><td><input type="tel" id="price"></td></tr> 
+        <tr><td>Quantity:</td><td><input type="number" id="qua" required></td></tr>
+        <tr><td>Total:</td><td><input type="tel"  id="tot" required></td></tr>
+        <tr><td></td><td><input type="submit" value="submit" onclick="sub()" ondblclick="myorder(name,price,j)"></td></tr>
+      </table>
+   </center>
+   </div>
+
+   <div class="contact">
+        <h2> Classy Couture</h2>
+        <h3> Contact:📞 +91 8667557851</h3>
+         <h3>e-mail:📧 ClassyCouture@gmail.com</h3>
+         <i class="fa-brands fa-instagram" style="color: aliceblue;"></i>
+         <i class="fa-brands fa-facebook" style="color: aliceblue;"></i>
+         <i class="fa-brands fa-whatsapp" style="color: aliceblue;"></i>
+   </div>
+<script src="script.js"></script>          
+</body>
